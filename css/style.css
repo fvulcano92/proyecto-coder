@@ -110,6 +110,34 @@ header nav ul li a{
     height: 250px;
 }
 
+.seleccionArg{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.img-1{
+    grid-row: span 2;
+}
+
+.ropaSeleccion img{
+    width: 95%;
+    height: 95%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+
+
+.proximamente h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(53, 196, 251);
+    margin-top: 10px;
+}
+
 .recibir__ofertas{ 
     margin:5px;
     text-align: center;
