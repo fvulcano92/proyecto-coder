@@ -13,7 +13,9 @@ header{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url(../img/banner-nav.jpg);
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,0.7959558823529411) 34%, rgba(2,0,36,1) 94%, rgba(2,0,36,1) 100%);
+    /* background-image: url(../img/banner-nav.jpg); */
     width: 100%;
     height: 100%;
     /* position: sticky; */
@@ -39,8 +41,8 @@ header nav ul li{
     background-color: slategrey;
 }
 
-h1{
-    font-size: 35px;
+header h1{
+    font-size: 50px;
     font-style: oblique;
     color: white;
     font-family: 'Tiro Telugu', serif;
@@ -151,6 +153,18 @@ header nav ul li a{
     margin-top: 30px;
 }
 
+.contactenos{
+    display: inline-block;
+}
+
+.formulario div{
+    margin: 5px;
+}
+
+.direccion h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .whatsapp{
     position: fixed;
     right: 3%;
@@ -161,20 +175,31 @@ header nav ul li a{
 
 footer{
     width: 100%;
-    padding: 20px 0px;
+    height: 100%;
+    padding: 50px 0px;
     background-color: beige;
     background-size: cover;
 
 }
 
 .contenedorFooter{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
 }
 
 .enlaces{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    /* display: block; */
+}
+
+.iconosRedes{
+    display: flex;
+    margin: 5px;
 }
 
 footer div h2{
