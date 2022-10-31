@@ -207,7 +207,7 @@ footer div h2{
     font-style: oblique;
 }
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERY*/
 
 @media screen and (max-width:600px){
     .listaNav{

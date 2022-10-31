@@ -1,0 +1,17 @@
+@media screen and (max-width:600px){
+    .listaNav{
+        flex-direction: column;
+    }
+}
+
+    @media screen and (max-width:539px){
+        .ubicacion{
+            display: none;
+        }
+    }
+    @media screen and (max-width:1125px){
+        .ubicacion{
+            display: none;
+            margin: 0px;
+        }
+    }

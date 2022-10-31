@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/titulo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Sport Shop</title>
@@ -25,44 +25,62 @@
         </nav>
     </header>
     <main>
-        <section class="contactenos">
-        <h2>Envianos un mensaje</h2>
-        <h4>Para consultas completa el siguiente formulario</h4>
-        <br>
-        <form action=""></form>
-        <div class="formulario">
-            <div>
-                <label for="email">CORREO ELECTRONICO:</label>
-                <input type="email" name="email">
-            </div>
-            <div>
-                <label for="nombre">NOMBRE:</label>
-                <input type="text" name="nombre">
-            </div>
-            <div>
-                <label for="apellido">APELLIDO:</label>
-                <input type="text" name="apellido">
-            </div>
-            <div>
-                <label for="localidad">LOCALIDAD:</label>
-                <input type="text" name="localidad">
-            </div>
-            <div>
-                <H3>Comentario</H3>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
-            </div>
-        </div>
-        <div class="direccion">
-            <h2>Nuestra ubicacion</h2>
-            <h5>Avenida Hipólito Yrigoyen & Peatonal Rivadavia, Quilmes</h5>
-            <h6>Lunes a Sabados de 10:00hs a 20:00hs</h6>
-            <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d819.8178377977206!2d-58.26125716475512!3d-34.72355399486437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e6afb0aa1f3%3A0x997669d48098a298!2sAvenida%20Hip%C3%B3lito%20Yrigoyen%20%26%20Peatonal%20Rivadavia%2C%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1663708562663!5m2!1ses-419!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section>
+            <div class="contactenos">
+                <!-- <form action=""></form> -->
+                <div class="formulario">
+                    <h2>Envianos un mensaje</h2>
+                    <h4>Para consultas completa el siguiente formulario</h4>
+                    <div>
+                        <label for="nombre">NOMBRE:</label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <div>
+                        <label for="apellido">APELLIDO:</label>
+                        <input type="text" name="apellido">
+                    </div>
+                    <div>
+                        <label for="localidad">LOCALIDAD:</label>
+                        <input type="text" name="localidad">
+                    </div>
+                    <div>
+                        <label for="email">CORREO ELECTRONICO:</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div>
+                        <H3>Comentario</H3>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+                </div>
+                <div class="direccion">
+                    <h2>Nuestra ubicacion</h2>
+                    <h5>Avenida Hipólito Yrigoyen & Peatonal Rivadavia, Quilmes</h5>
+                    <h6>Lunes a Sabados de 10:00hs a 20:00hs</h6>
+                    <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.271526651852!2d-58.26232468423389!3d-34.72354957135662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e6afb0aa1f3%3A0x997669d48098a298!2sAvenida%20Hip%C3%B3lito%20Yrigoyen%20%26%20Peatonal%20Rivadavia%2C%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667245441516!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
+        <section class="recibir__ofertas">
+            <h2>Recibí ofertas y novedades</h2>
+            <div>
+                <label for="email"></label>
+                <input type="email">
+                <span class="boton__enviar"></span>
+                <input type="button" value="Enviar">
+            </div>
+        </section>
+        <!-- <section>
+            <div class="direccion">
+                <h2>Nuestra ubicacion</h2>
+                <h5>Avenida Hipólito Yrigoyen & Peatonal Rivadavia, Quilmes</h5>
+                <h6>Lunes a Sabados de 10:00hs a 20:00hs</h6>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.271526651852!2d-58.26232468423389!3d-34.72354957135662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e6afb0aa1f3%3A0x997669d48098a298!2sAvenida%20Hip%C3%B3lito%20Yrigoyen%20%26%20Peatonal%20Rivadavia%2C%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1667241045461!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section> -->
     </main>
     <div class="whatsapp">
         <a href="https://wa.me/1XXXXXXXXXX"><img src="../img/whatsapp.png" alt=""></a>
@@ -70,22 +88,22 @@
     <footer>
         <div class="contenedorFooter">
             <div>
-            <h2>Seguinos</h2>
-            <a class="iconosRedes" href="https://www.instagram.com/"><img src="../img/instagram.png" alt=""></a>
-            <a class="iconosRedes" href="https://www.facebook.com/"><img src="../img/facebook.png" alt=""></a>
-            <a class="iconosRedes" href="https://www.twitter.com/"><img src="../img/twitter.png" alt=""></a>
+                <h4>Seguinos</h4>
+                <a class="iconosRedes" href="https://www.instagram.com/"><img src="../img/instagram.png" alt=""></a>
+                <a class="iconosRedes" href="https://www.facebook.com/"><img src="../img/facebook.png" alt=""></a>
+                <a class="iconosRedes" href="https://www.twitter.com/"><img src="../img/twitter.png" alt=""></a>
             </div>
             <div>
-                <h2>Como podemos ayudarte</h2>
-                <a class="enlaces" href="#">Preguntas frecuentes</a>
+                <h4>Como podemos ayudarte</h4>
                 <a class="enlaces" href="#">Envios</a>
                 <a class="enlaces" href="#">Politica de cambio</a>
                 <a class="enlaces" href="#">Metodos de pago</a>
             </div>
             <div>
-                <h2>Sobre nosotros</h2>
+                <h4>Sobre nosotros</h4>
                 <a class="enlaces" href="../pages/contacto.html">Datos contacto</a>
                 <a class="enlaces" href="#">Sucursales</a>
+                <a class="enlaces" href="">Sobre Nosotros</a>
             </div>
         </div>
     </footer>
