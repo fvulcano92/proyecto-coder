@@ -1,7 +1,10 @@
+@import "../base/variables";
+
 header{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    // display:flex;
+    // justify-content: space-between;
+    // flex-wrap: wrap;
+    @include flex (flex, center, space-between, wrap);
     background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,0.7959558823529411) 34%, rgba(2,0,36,1) 94%, rgba(2,0,36,1) 100%);
     /* background-image: url(../img/banner-nav.jpg); */
