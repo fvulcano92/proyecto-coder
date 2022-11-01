@@ -1,0 +1,20 @@
+//*--------TITULOS-------*//
+$fondoTitulos: #5DA7DB;
+$letraTitulos: white;
+$medidaTitulos: 100%;
+
+//*---------TARJETAS DE PRODUCTOS----------*//
+$anchoTarjeta: 300px;
+$altoTarjeta: 400px;
+$bordeTarjeta: 2px solid gray;
+$margenTarjeta: 10px;
+$margenBoton: 50px;
+$alinearTarjeta: center;
+
+//*---------BOTON DE COMPRA-----------*//
+$botonCompra:(
+    bg-color: black,
+    color-texto: white,
+    pdn-medidas: 5px 15px 5px 15px,
+    texto-decoracion: none,
+)
